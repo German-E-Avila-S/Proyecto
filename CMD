@@ -1,0 +1,6 @@
+CMD
+mysql -u root -p
+'************'contra
+CREATE USER 'Proyecto'@'localhost' IDENTIFIED BY 'proyecto1234';
+GRANT ALL PRIVILEGES ON *.* TO 'Proyecto'@'localhost' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
